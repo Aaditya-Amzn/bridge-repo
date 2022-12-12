@@ -24,7 +24,7 @@ jobs:
           aws-region: us-west-2
 
       - name: Sync up to CodeCommit
-        uses: tsgit18/sync-up-to-codecommit-action@v1
+        uses: tsgit18/sync-up-to-codecommit-action@v1.0.6
         with:
           repository_name: skill-components
           aws_region: us-west-2
